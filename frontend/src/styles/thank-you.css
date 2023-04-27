@@ -1,0 +1,23 @@
+.thank-you {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+.greet {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.greet span i {
+  color: green;
+  font-size: 4rem;
+}
+
+.greet h1 {
+  font-size: 3.6rem;
+  font-family: var(--subtitle-font-name);
+}

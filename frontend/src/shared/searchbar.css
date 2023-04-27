@@ -38,5 +38,6 @@
 .search_icon {
   background-color: var(--secondary-color);
   padding: 10px;
+  color: white;
   border-radius: 10px 0 10px 0;
 }

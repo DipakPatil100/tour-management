@@ -13,12 +13,17 @@ const tours = [
     city: "London",
     distance: 300,
     price: 99,
+    address: "XYZ somewhere",
     maxGroupSize: 10,
     desc: "this is the description",
     reviews: [
       {
         name: "jhon doe",
         rating: 4.6,
+      },
+      {
+        name: "jhon doe",
+        rating: 4.9,
       },
     ],
     avgRating: 4.5,
@@ -31,6 +36,7 @@ const tours = [
     city: "Indonesia",
     distance: 400,
     price: 99,
+    address: "XYZ somewhere",
     maxGroupSize: 8,
     desc: "this is the description",
     reviews: [
@@ -49,6 +55,7 @@ const tours = [
     city: "Thailand",
     distance: 500,
     price: 99,
+    address: "XYZ somewhere",
     maxGroupSize: 8,
     desc: "this is the description",
     reviews: [
@@ -67,6 +74,7 @@ const tours = [
     city: "Thailand",
     distance: 500,
     price: 99,
+    address: "XYZ somewhere",
     maxGroupSize: 8,
     desc: "this is the description",
     reviews: [
@@ -85,6 +93,7 @@ const tours = [
     city: "Indonesia",
     distance: 500,
     price: 99,
+    address: "XYZ somewhere",
     maxGroupSize: 8,
     desc: "this is the description",
     reviews: [
@@ -103,6 +112,7 @@ const tours = [
     city: "Japan",
     distance: 500,
     price: 99,
+    address: "XYZ somewhere",
     maxGroupSize: 8,
     desc: "this is the description",
     reviews: [
@@ -121,6 +131,7 @@ const tours = [
     city: "France",
     distance: 500,
     price: 99,
+    address: "XYZ somewhere",
     maxGroupSize: 8,
     desc: "this is the description",
     reviews: [
@@ -139,14 +150,10 @@ const tours = [
     city: "Thailand",
     distance: 500,
     price: 99,
+    address: "XYZ somewhere",
     maxGroupSize: 8,
     desc: "this is the description",
-    reviews: [
-      {
-        name: "jhon doe",
-        rating: 4.6,
-      },
-    ],
+    reviews: [],
     avgRating: 4.5,
     photo: tourImg03,
     featured: false,

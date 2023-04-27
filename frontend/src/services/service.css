@@ -1,5 +1,7 @@
 .service-item {
   padding: 20px;
+
+  width: 290px;
 }
 
 .service-item img {

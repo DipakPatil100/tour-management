@@ -1,0 +1,92 @@
+.booking {
+  /* width: 100%; */
+  border: 1px solid rgba(230, 230, 230, 0.692);
+  padding: 2rem;
+  border-radius: 0.5rem;
+  position: sticky;
+  top: 80px;
+  margin: 0 10px;
+}
+.booking-top h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+.booking-top h3 span {
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: var(--text-color);
+}
+.booking-top span {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--text-color);
+}
+.booking-top span i {
+  color: var(--secondary-color);
+}
+.booking-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid lightgrey;
+}
+.booking-form {
+  padding-top: 2rem;
+}
+.booking-form h5 {
+  margin-bottom: 1rem;
+}
+.booking-form input {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  color: var(--heading-color);
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid rgb(226, 226, 226);
+}
+.booking-info-form {
+  padding: 1rem;
+  border: 1px solid rgb(226, 226, 226);
+  border-radius: 5px;
+}
+.form-group {
+  margin: 10px 0;
+}
+
+.list-item {
+  margin: 10px 0;
+  border: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.booking-bottom {
+  margin-bottom: 1rem;
+}
+.list-item h5,
+.list-item span {
+  font-size: 1rem;
+  color: var(--text-color);
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+.total h5,
+.total span {
+  color: var(--heading-color);
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+.booking-bottom button {
+  width: 100%;
+  margin-top: 10px;
+  color: white;
+}

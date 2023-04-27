@@ -1,0 +1,31 @@
+.newsLetter {
+  display: flex;
+  align-items: center;
+  padding: 0px 50px;
+  background-color: lightblue;
+}
+.left {
+  flex: 1;
+}
+.left span {
+  display: flex;
+  align-items: center;
+}
+.left span input {
+  width: 350px;
+  height: 50px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+}
+.left span button {
+  width: 100px;
+  height: 50px;
+  border: none;
+  background-color: var(--secondary-color);
+  color: white;
+  border-radius: 0 5px 5px 0px;
+}
+.right {
+  flex: 1;
+}

@@ -1,16 +1,17 @@
 .header {
   width: 100%;
-  height: 80px;
+  /* height: 80px; */
   line-height: 80px;
   background-color: #fff;
   position: sticky;
   top: 0;
   left: 0;
   z-index: 999;
+  box-shadow: 0 0 6px rgba(143, 143, 143, 0.301);
 }
 
 .logo img {
-  width: 30%;
+  width: 35%;
 }
 .head-wrap {
   display: flex;
@@ -30,7 +31,7 @@
 .navi li a {
   margin: 0 50px;
   text-decoration: none;
-  color: var(--heading-color);
+  color: rgb(175, 175, 190);
   font-weight: 500;
 }
 .navi li a:hover {
@@ -39,6 +40,23 @@
 .navi li a.active__link {
   color: var(--secondary-color);
 }
+.userAuth {
+  display: flex;
+  align-items: center;
+}
 .userAuth button {
   margin: 0 20px;
+}
+.logout-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logout-section button {
+  border: 1px solid var(--primary-color);
+  color: var(--secondary-color);
+}
+.logout-section button:hover {
+  background-color: var(--secondary-color) !important;
+  color: white;
 }
