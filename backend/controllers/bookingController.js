@@ -39,8 +39,6 @@ export const getBooking = async (req, res) => {
 
 // Get All Booking
 export const getAllBooking = async (req, res) => {
-  const id = req.params.id;
-
   try {
     const books = await Booking.find();
     res.status(200).json({
