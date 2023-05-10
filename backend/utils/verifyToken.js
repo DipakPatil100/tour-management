@@ -6,7 +6,7 @@ export const verifyToken = (req, res, next) => {
   // console.log("verifytoken run");
   const token = req.cookies.accessToken;
 
-  console.log(token);
+  // console.log(req.cookies);
 
   if (!token) {
     return res
@@ -45,7 +45,7 @@ export const verifyToken = (req, res, next) => {
 //   });
 // };
 
-export const verifyUser = async (req, res, next) => {
+export const verifyUser = (req, res, next) => {
   verifyToken(req, res, async () => {
     const userId = req.user.id;
 
@@ -54,7 +54,7 @@ export const verifyUser = async (req, res, next) => {
 
       // console.log(req.user.id, tour?._id.toString());
 
-      if (req.user.id === tour?._id.toString()) {
+      if (req.user.id === tour?._id) {
         // console.log("trigger");
         next();
       } else {
